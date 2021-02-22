@@ -72,7 +72,7 @@ require('G:/DARSHAN/College Project/Routes/route.js')(app)
 
 
 //Port
-let port=process.env.PORT || 3300
+let port=process.env.PORT || 5000
 app.listen(port,()=>{
 
     console.log("Port Listening on "+port)
